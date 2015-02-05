@@ -1,0 +1,50 @@
+body {
+	background-color: yellow;
+}
+
+.header {
+	background-color: black; 
+	color: white;
+	text-align: center; 
+	padding: 5px;
+}
+
+.nav {
+	line-height:30px;
+	height:1000px;
+    width:200px;
+    float:left;
+    background-color:#eeeeee;
+    padding:10px;
+    font-size: 20px; 
+}
+
+.section {
+    float:left;
+    padding:10px;
+
+
+}
+
+
+/* link style in nav */
+a:link {
+    color:#000000;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:visited {
+    color:#000000;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:hover {
+    color:#ff0000;
+    background-color:transparent;
+    text-decoration:underline;
+}
+a:active {
+    color:#ff0000;
+    background-color:transparent;
+    text-decoration:underline;
+}

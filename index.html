@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="bamboo/css/bamboo.css" />
+  <link rel="stylesheet" href="bamboo/css/normalize.css" />
+  
+</head>
+
+<body>
+
+
+
+
+  <nav id="main-nav" class="navigation overflow">
+    <ul>
+  	 <li> <a href="new-task.html">Add New Task </a> </li>
+  	 <li> <a href="">Reflections </a> </li>
+  	 <li> <a href="">Mood Levels </a> </li>
+  	 <li> <a href="">Journal Entry </a> </li>
+  	 <li> <a href="">Settings </a> </li>
+    </ul>
+  </nav>
+
+
+  <div id="container">
+    <header class="primary">
+      <span class="open icon">&#9776;</span>
+      <hgroup><h1>Food For Thought</h1></hgroup>
+  </header>
+
+  <section id="scroller" class="overflow">
+    <div id="content">
+      <!-- Content goes in here -->
+    
+  
+
+    <h2>Happy</h2>
+    <img src="graph-1.jpg" alt="happy graph" style="width:500px;height:350px">
+
+    <h2>Productivity</h2>
+    <img src="graph2.jpg" alt="productivity graph" style="width:500px;height:350px">
+
+    <h2>Stress Levels</h2>
+    <img src="graph3.jpg" alt="stress level graph" style="width:500px;height:350px">
+  
+
+
+      <!-- Content ends -->
+    </div>
+  </section>
+
+</div>
+
+
+<script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+<script src="js/bamboo.0.1.js"></script>
+
+<script>
+  var site = new Bamboo ({
+  menu: true,
+  breakpoint: 768,
+  menuWidth: 265,
+  headerHeight: 50,
+  resize: function(){
+    // function to call on page resize/orientation change
+  }
+});
+</script>
+</body>
+
+</html>
